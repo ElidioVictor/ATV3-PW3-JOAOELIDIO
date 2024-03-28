@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    width: 700px;
+    justify-content: space-between;
+    background-color: darkblue;
+    padding-right:calc(100% - 700px) ;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    padding: 5px 40px;
+}
+
+.item{
+    padding:5px 10px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+}
+
+.item:visited{
+    color: black;
+}

@@ -1,0 +1,46 @@
+.caixa{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-direction: column;
+    width: 300px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    margin: 1%;
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.form input{
+    height: 25px;
+    width: 90%;
+}
+
+
+.form-button{
+    width: 45%;
+    font-size: medium;
+    background-color:lightblue;
+    border-color:darkblue;
+}
+
+.form-card{
+    margin: 5vh auto 0;
+    border: 1.5px solid black;
+    height: 300px;
+    width: 400px;
+    
+}
